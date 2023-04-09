@@ -6,3 +6,43 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+img{
+    width: 100%;
+}
+body{
+    background-color:#F3F1FF;
+}
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+.top-player-section{
+    width:870px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 50px;
+    border-bottom: 1px solid #D1D1D1;
+}
+.top-player-title{
+    color:#562EFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.top-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+.players{
+    display: flex;
+    align-items: center;
+}
+.players img{
+   width: 56px;
+}
+.players-name{
+    margin-left: 16px;
+    font-size: 18px;
+
+}
