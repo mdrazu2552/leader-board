@@ -127,13 +127,14 @@ p.blog-author a {
 }
 
 .course-item h3 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
-.course-item h5 {
+.teacher {
     font-size: 15px;
     color: #ED6B4F;
     font-weight: 400;
+    margin: 10px 0;    
 }
 
 .rating i {
@@ -160,6 +161,7 @@ p.blog-author a {
 
 .time h5 {
     font-size: 13px;
+        color: #ED6B4F;
 }
 
 .time i {
