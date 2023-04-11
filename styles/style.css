@@ -1,48 +1,167 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-img{
+
+img {
     width: 100%;
 }
-body{
-    background-color:#F3F1FF;
+
+body {
+    background-color: #F3F1FF;
 }
-.main{
+
+.main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
-.top-player-section{
-    width:870px;
+
+.top-player-section {
+    width: 870px;
+    border-radius: 5px;
     background-color: #fff;
     padding: 30px;
     margin-top: 50px;
     border-bottom: 1px solid #D1D1D1;
 }
-.top-player-title{
-    color:#562EFF;
+
+.section-title {
+    color: #562EFF;
     font-size: 24px;
     margin-bottom: 20px;
 }
+
 .top-players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 30px;
 }
-.players{
+
+.players {
     display: flex;
     align-items: center;
 }
-.players img{
-   width: 56px;
+
+.players img {
+    width: 56px;
 }
-.players-name{
+
+.players-name {
     margin-left: 16px;
     font-size: 18px;
 
+}
+
+/* Blogs section csss */
+.blog-section {
+    width: 870px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog-thumbnail img {
+    width: 130px;
+}
+
+.blog-info {
+
+    margin-left: 16px;
+}
+
+.blog-info h2 {
+    font-size: 20px;
+}
+
+p.blog-author {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+p.blog-author a {
+    color: #562EFF;
+    text-decoration: none;
+}
+
+/* latest-course-section */
+.latest-course-section {
+    border-radius: 5px;
+    width: 870px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.course-item {
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.course-item img {
+    width: 224px;
+}
+
+.course-item h3 {
+    font-size: 20px;
+}
+
+.course-item h5 {
+    font-size: 15px;
+    color: #ED6B4F;
+    font-weight: 400;
+}
+
+.rating i {
+    color: #FFC014;
+    font-size: 13px;
+}
+
+.rating-number {
+    color: #A2A2A2;
+    font-size: 13px;
+}
+
+.review-and-time {
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+}
+
+.time {
+    padding: 3px 7px;
+    border-radius: 15px;
+    background-color: rgba(235, 40, 40, 0.203);
+}
+
+.time h5 {
+    font-size: 13px;
+}
+
+.time i {
+    font-size: 13px;
 }
